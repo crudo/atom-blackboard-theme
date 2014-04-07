@@ -74,11 +74,11 @@
 }
 
 .constant {
-  color: @orange;
+  color: @constant-color;
 
-  &.character.escape     { color: @cyan; }
+  &.character.escape     { color: @constant-color; }
   &.numeric              { color: @constant-color; }
-  &.mathematical-symbols { color: #FFFFFF; }
+  &.mathematical-symbols { color: @text-color; }
   &.other.color          { color: @constant-color; }
   &.other.symbol         { color: @constant-color; }
   &.nil                  { color: @keyword-color; }
@@ -146,9 +146,10 @@
   &.class { color: @light-orange; }
 
   &.function  {
-    color: @function-color;
+    color: @text-color;
 
-    &.any-method { color: @blue; }
+    &.any-method { color: @text-color; }
+    &.misc       { color: @tag-color; }
   }
 
   &.property-name  { color: @tag-color; }
@@ -161,7 +162,7 @@
   }
 
   &.name.class, &.name.type.class {
-    color: @light-orange;
+    color: @entity-color;
   }
 
   &.name.section {
