@@ -1,9 +1,9 @@
 {
-  "name": "blackboard-theme",
+  "name": "blackboard-theme-original",
   "theme": "syntax",
-  "version": "0.1.1",
-  "description": "A modified adaptation of the Blackboard TxMt theme for Atom.",
-  "repository": "https://github.com/ltackett/atom-blackboard-theme",
+  "version": "0.2.0",
+  "description": "A adaptation of the TextMate's Blackboard theme for Atom.",
+  "repository": "https://github.com/crudo/atom-blackboard-theme",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
