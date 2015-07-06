@@ -1,7 +1,7 @@
 {
   "name": "blackboard-theme-original",
   "theme": "syntax",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A adaptation of the TextMate's Blackboard theme for Atom.",
   "repository": "https://github.com/crudo/atom-blackboard-theme",
   "license": "MIT",
