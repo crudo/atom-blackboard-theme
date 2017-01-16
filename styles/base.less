@@ -88,31 +88,31 @@ atom-text-editor .search-results .syntax-marker.current-result .region {
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @storage-color;
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @constant-color;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @constant-color;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @constant-color;
   }
 
   &.syntax--other.syntax--color {
-    color: @cyan;
+    color: @constant-color;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @constant-color;
   }
 }
 
 .syntax--variable {
-  color: @red;
+  color: #FFFFFF;
 
   &.syntax--interpolation {
     color: darken(@red, 10%);
@@ -129,7 +129,7 @@ atom-text-editor .search-results .syntax-marker.current-result .region {
 }
 
 .syntax--string {
-  color: @green;
+  color: @string-color;
 
 
   &.syntax--regexp {
@@ -148,7 +148,7 @@ atom-text-editor .search-results .syntax-marker.current-result .region {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @light-gray;
+      color: @comment-color;
     }
 
     &.syntax--string,
@@ -186,20 +186,20 @@ atom-text-editor .search-results .syntax-marker.current-result .region {
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: @text-color;
 
     &.syntax--any-method {
-      color: @blue;
+      color: @text-color;
     }
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @entity-color;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
+    color: @entity-color;
     text-decoration: underline;
   }
 
@@ -207,7 +207,7 @@ atom-text-editor .search-results .syntax-marker.current-result .region {
     color: @green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @entity-color;
   }
 
   &.syntax--name.syntax--section {
@@ -215,22 +215,22 @@ atom-text-editor .search-results .syntax-marker.current-result .region {
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @tag-color;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @entity-color;
 
     &.syntax--id {
-      color: @blue;
+      color: @entity-color;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: @entity-color;
   }
 
   &.syntax--link {
